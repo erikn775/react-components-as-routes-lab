@@ -1,0 +1,397 @@
+{
+  "stats": {
+    "suites": 7,
+    "tests": 19,
+    "passes": 8,
+    "pending": 0,
+    "failures": 12,
+    "start": "2021-03-05T21:23:31.778Z",
+    "end": "2021-03-05T21:23:31.841Z",
+    "duration": 63
+  },
+  "tests": [
+    {
+      "title": "should render one <h1 />, inside of a <div />",
+      "fullTitle": "Actors should render one <h1 />, inside of a <div />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected null to equal 'h1'",
+        "showDiff": true,
+        "actual": null,
+        "expected": "h1",
+        "stack": "AssertionError: expected null to equal 'h1'\n    at Context.<anonymous> (test/ActorsTest.js:24:50)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "should render 'Actors Page' inside of the <h1 />",
+      "fullTitle": "Actors should render 'Actors Page' inside of the <h1 />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to include 'Actors Page'",
+        "showDiff": false,
+        "actual": "",
+        "stack": "AssertionError: expected '' to include 'Actors Page'\n    at Context.<anonymous> (test/ActorsTest.js:28:50)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "should render a <div /> for each actor",
+      "fullTitle": "Actors should render a <div /> for each actor",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 4",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "4",
+        "stack": "AssertionError: expected 0 to equal 4\n    at Context.<anonymous> (test/ActorsTest.js:32:54)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "should render the right content for each actor with a className of 'actor'",
+      "fullTitle": "Actors should render the right content for each actor with a className of 'actor'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 4",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "4",
+        "stack": "AssertionError: expected 0 to equal 4\n    at Context.<anonymous> (test/ActorsTest.js:37:39)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "should render one <h1 /> first, inside of the <div />",
+      "fullTitle": "Directors should render one <h1 /> first, inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Directors Page' inside of the <h1 />",
+      "fullTitle": "Directors should render 'Directors Page' inside of the <h1 />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each director",
+      "fullTitle": "Directors should render a <div /> for each director",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render the right content for each director",
+      "fullTitle": "Directors should render the right content for each director",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '<div>director.name<ul><li>director.movies</li><li>director.movies</li><li>director.movies</li></ul></div>' to include 'Scott Derrickson'",
+        "showDiff": false,
+        "actual": "<div>director.name<ul><li>director.movies</li><li>director.movies</li><li>director.movies</li></ul></div>",
+        "stack": "AssertionError: expected '<div>director.name<ul><li>director.movies</li><li>director.movies</li><li>director.movies</li></ul></div>' to include 'Scott Derrickson'\n    at ShallowWrapper.<anonymous> (test/DirectorsTest.js:38:30)\n    at /home/erikn775/react/react-components-as-routes-lab/node_modules/enzyme/build/ShallowWrapper.js:1262:21\n    at Array.forEach (<anonymous>)\n    at ShallowWrapper.forEach (node_modules/enzyme/build/ShallowWrapper.js:1261:33)\n    at Context.<anonymous> (test/DirectorsTest.js:37:24)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "should only render one <h1 /> inside of the <div />",
+      "fullTitle": "Home should only render one <h1 /> inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Home Page' inside of the <h1 />",
+      "fullTitle": "Home should render 'Home Page' inside of the <h1 />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render one <h1 /> first, inside of the <div />",
+      "fullTitle": "Movies should render one <h1 /> first, inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Movies Page' inside of the <h1 />",
+      "fullTitle": "Movies should render 'Movies Page' inside of the <h1 />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each movie",
+      "fullTitle": "Movies should render a <div /> for each movie",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render the right content for each movie",
+      "fullTitle": "Movies should render the right content for each movie",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'movie.title movie.time ' to include 'Doctor Strange'",
+        "showDiff": false,
+        "actual": "movie.title movie.time ",
+        "stack": "AssertionError: expected 'movie.title movie.time ' to include 'Doctor Strange'\n    at ShallowWrapper.<anonymous> (test/MoviesTest.js:38:31)\n    at /home/erikn775/react/react-components-as-routes-lab/node_modules/enzyme/build/ShallowWrapper.js:1262:21\n    at Array.forEach (<anonymous>)\n    at ShallowWrapper.forEach (node_modules/enzyme/build/ShallowWrapper.js:1261:33)\n    at Context.<anonymous> (test/MoviesTest.js:37:21)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "wraps content in a div with .navbar class",
+      "fullTitle": "NavBar wraps content in a div with .navbar class",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 1",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "1",
+        "stack": "AssertionError: expected 0 to equal 1\n    at Context.<anonymous> (test/NavBarTest.js:20:47)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "renders a Home <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Home <NavLink>",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:27:22)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "renders a Movies <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Movies <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:33:22)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "renders an Actors <NavLink>",
+      "fullTitle": "NavBar navlinks renders an Actors <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:39:22)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "renders a Directors <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Directors <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:45:22)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "should render one <h1 />, inside of a <div />",
+      "fullTitle": "Actors should render one <h1 />, inside of a <div />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected null to equal 'h1'",
+        "showDiff": true,
+        "actual": null,
+        "expected": "h1",
+        "stack": "AssertionError: expected null to equal 'h1'\n    at Context.<anonymous> (test/ActorsTest.js:24:50)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "should render 'Actors Page' inside of the <h1 />",
+      "fullTitle": "Actors should render 'Actors Page' inside of the <h1 />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to include 'Actors Page'",
+        "showDiff": false,
+        "actual": "",
+        "stack": "AssertionError: expected '' to include 'Actors Page'\n    at Context.<anonymous> (test/ActorsTest.js:28:50)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "should render a <div /> for each actor",
+      "fullTitle": "Actors should render a <div /> for each actor",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 4",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "4",
+        "stack": "AssertionError: expected 0 to equal 4\n    at Context.<anonymous> (test/ActorsTest.js:32:54)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "should render the right content for each actor with a className of 'actor'",
+      "fullTitle": "Actors should render the right content for each actor with a className of 'actor'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 4",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "4",
+        "stack": "AssertionError: expected 0 to equal 4\n    at Context.<anonymous> (test/ActorsTest.js:37:39)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "\"before each\" hook for \"contains a <NavBar /> component\"",
+      "fullTitle": "App \"before each\" hook for \"contains a <NavBar /> component\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: Navbar is not defined\n    at Object.App [as type] (src/containers/App.js:17:10)\n    at ReactShallowRenderer.render (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:145:34)\n    at /home/erikn775/react/react-components-as-routes-lab/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:287:35\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:103:16)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:286:68)\n    at new ShallowWrapper (node_modules/enzyme/build/ShallowWrapper.js:119:22)\n    at shallow (node_modules/enzyme/build/shallow.js:19:10)\n    at Context.<anonymous> (test/AppTest.js:16:15)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "Navbar is not defined"
+      }
+    },
+    {
+      "title": "should render the right content for each director",
+      "fullTitle": "Directors should render the right content for each director",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '<div>director.name<ul><li>director.movies</li><li>director.movies</li><li>director.movies</li></ul></div>' to include 'Scott Derrickson'",
+        "showDiff": false,
+        "actual": "<div>director.name<ul><li>director.movies</li><li>director.movies</li><li>director.movies</li></ul></div>",
+        "stack": "AssertionError: expected '<div>director.name<ul><li>director.movies</li><li>director.movies</li><li>director.movies</li></ul></div>' to include 'Scott Derrickson'\n    at ShallowWrapper.<anonymous> (test/DirectorsTest.js:38:30)\n    at /home/erikn775/react/react-components-as-routes-lab/node_modules/enzyme/build/ShallowWrapper.js:1262:21\n    at Array.forEach (<anonymous>)\n    at ShallowWrapper.forEach (node_modules/enzyme/build/ShallowWrapper.js:1261:33)\n    at Context.<anonymous> (test/DirectorsTest.js:37:24)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "should render the right content for each movie",
+      "fullTitle": "Movies should render the right content for each movie",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'movie.title movie.time ' to include 'Doctor Strange'",
+        "showDiff": false,
+        "actual": "movie.title movie.time ",
+        "stack": "AssertionError: expected 'movie.title movie.time ' to include 'Doctor Strange'\n    at ShallowWrapper.<anonymous> (test/MoviesTest.js:38:31)\n    at /home/erikn775/react/react-components-as-routes-lab/node_modules/enzyme/build/ShallowWrapper.js:1262:21\n    at Array.forEach (<anonymous>)\n    at ShallowWrapper.forEach (node_modules/enzyme/build/ShallowWrapper.js:1261:33)\n    at Context.<anonymous> (test/MoviesTest.js:37:21)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "wraps content in a div with .navbar class",
+      "fullTitle": "NavBar wraps content in a div with .navbar class",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 1",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "1",
+        "stack": "AssertionError: expected 0 to equal 1\n    at Context.<anonymous> (test/NavBarTest.js:20:47)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "renders a Home <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Home <NavLink>",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:27:22)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "renders a Movies <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Movies <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:33:22)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "renders an Actors <NavLink>",
+      "fullTitle": "NavBar navlinks renders an Actors <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:39:22)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
+      }
+    },
+    {
+      "title": "renders a Directors <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Directors <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:45:22)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should render one <h1 /> first, inside of the <div />",
+      "fullTitle": "Directors should render one <h1 /> first, inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Directors Page' inside of the <h1 />",
+      "fullTitle": "Directors should render 'Directors Page' inside of the <h1 />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each director",
+      "fullTitle": "Directors should render a <div /> for each director",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should only render one <h1 /> inside of the <div />",
+      "fullTitle": "Home should only render one <h1 /> inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Home Page' inside of the <h1 />",
+      "fullTitle": "Home should render 'Home Page' inside of the <h1 />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render one <h1 /> first, inside of the <div />",
+      "fullTitle": "Movies should render one <h1 /> first, inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Movies Page' inside of the <h1 />",
+      "fullTitle": "Movies should render 'Movies Page' inside of the <h1 />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each movie",
+      "fullTitle": "Movies should render a <div /> for each movie",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
